@@ -6,6 +6,7 @@ const toHex = require('colornames');
 function between(min, max) {
   return Math.floor(Math.random() * (max - min) + min);
 }
+
 function App() {
   const [hex, setHex] = useState(toHex('indianred'));
   const basicHues = ['green', 'blue', 'cyan', 'grey', 'orchid'];
@@ -19,11 +20,12 @@ function App() {
   let [pos1, setPos1] = useState(0);
   let [pos2, setPos2] = useState(1);
 
+  // Reorder items orange and #green
   const reOrder = () => {
     if (pos1 > pos2) {
-      setPos1(pos1 - 1);
+      setPos2(pos2 - 1);
     } else {
-      setPos1(pos1 + 2);
+      setPos1(pos1 + 1);
     }
   };
   return (

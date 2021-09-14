@@ -1,3 +1,7 @@
+.App {
+  text-align: center;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -17,7 +21,6 @@ button {
 
 section {
   border: 2px solid black;
-  border-radius: 2%;
   margin: 4vw 5vh 4vw 5vh;
 }
 
