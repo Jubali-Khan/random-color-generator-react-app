@@ -20,7 +20,7 @@ function App() {
   const [pos1, setPos1] = useState(0);
   const [pos2, setPos2] = useState(1);
 
-  // Reorder items orange and #green
+  // Reorder items #orange and #green
   const reOrder = () => {
     if (pos1 > pos2) {
       setPos2(pos2 - 1);
