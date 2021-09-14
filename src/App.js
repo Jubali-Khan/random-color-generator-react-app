@@ -25,7 +25,7 @@ function App() {
     if (pos1 > pos2) {
       setPos2(pos2 - 1);
     } else {
-      setPos1(pos1 + 1);
+      setPos1(pos1 + 2);
     }
   };
   return (
