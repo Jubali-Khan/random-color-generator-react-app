@@ -17,8 +17,8 @@ function App() {
     setHex(toHex(randomHue));
   };
 
-  let [pos1, setPos1] = useState(0);
-  let [pos2, setPos2] = useState(1);
+  const [pos1, setPos1] = useState(0);
+  const [pos2, setPos2] = useState(1);
 
   // Reorder items orange and #green
   const reOrder = () => {
@@ -45,13 +45,13 @@ function App() {
           style={{
             zIndex: pos1,
           }}
-        ></div>
+        />
         <div
           id="green"
           style={{
             zIndex: pos2,
           }}
-        ></div>
+        />
       </section>
     </div>
   );
