@@ -23,7 +23,7 @@ function App() {
   // Reorder items #orange and #green
   const reOrder = () => {
     if (pos1 > pos2) {
-      setPos2(pos2 - 1);
+      setPos2(pos2 + 2);
     } else {
       setPos1(pos1 + 2);
     }
