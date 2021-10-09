@@ -43,3 +43,7 @@ section {
   left: 43vw;
   border-radius: 20%;
 }
+
+#centerer {
+  margin: 20px;
+}
